@@ -39,7 +39,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 340px;
+  height: 320px;
   width: 300px;
   background-color: var(--card);
   margin: 16px;
@@ -54,6 +54,11 @@ body{
   align-items: center;
   justify-content: space-between;
   margin-bottom: 18px;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(2,6,23,0.8);
 }
 
 .top img{

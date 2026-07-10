@@ -5,7 +5,7 @@ const App = () => {
   const jobOpenings = [
   {
     brandLogo: "https://www.bing.com/th/id/OIP.lMlehYqlWlrzobTtzJ6fpAHaHa?w=240&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
-    companyName: "Googl",
+    companyName: "Google",
     datePosted: "2 days ago",
     post: "Frontend Developer",
     tag1: "Full Time",

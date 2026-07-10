@@ -1,0 +1,13 @@
+.header{
+    background-color: lightblue;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 10px;
+    margin:5px;
+}
+
+.btn{
+    background-color: aqua;
+    width: 50px;
+}

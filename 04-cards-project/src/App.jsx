@@ -1,4 +1,5 @@
 import Cards from "./components/Cards";
+import styles from './components/Cards.module.css'
 
 const App = () => {
   const jobOpenings = [
@@ -115,7 +116,7 @@ const App = () => {
 ];
 
   return (
-    <div className="parent">
+    <div className={styles.parent}>
       {jobOpenings.map((elem, index) => {
         return (
           <Cards

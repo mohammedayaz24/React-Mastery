@@ -1,0 +1,8 @@
+.btn{
+  height:30px;
+  width:fit-content;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  margin:20px;
+}

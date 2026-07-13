@@ -1,5 +1,7 @@
-import Cards from "./components/Cards";
-import styles from './components/Cards.module.css'
+import Cards from "./components/card/Cards";
+import styles from './components/card/Cards.module.css'
+// import Navbar from "./components/navbar/Navbar";
+// import style from "./components/navbar/Navbar.module.css"
 
 const App = () => {
   const jobOpenings = [
@@ -132,6 +134,8 @@ const App = () => {
           />
         );
       })}
+      
+      
     </div>
   );
 };

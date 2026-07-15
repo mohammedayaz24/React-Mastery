@@ -1,7 +1,7 @@
 
 const Section2 = () => {
   return (
-    <div className='h-screen w-full bg-green-900'>Section2</div>
+    <div className='h-screen w-full bg-green-700'>Section 2</div>
   )
 }
 

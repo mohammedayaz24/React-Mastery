@@ -1,5 +1,42 @@
 @import "tailwindcss";
 
-#right::-webkit-scrollbar{
-    display:none;
+#right{
+    /* enable smooth scrolling inside the element */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
+
+/* WebKit browsers: custom scrollbar visuals */
+#right::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+#right::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+#right::-webkit-scrollbar-thumb{
+    background: rgba(100,100,100,0.35);
+    border-radius: 999px;
+    transition: background-color 200ms ease, transform 200ms ease;
+    border: 2px solid transparent; /* creates padding effect */
+    background-clip: padding-box;
+}
+
+#right::-webkit-scrollbar-thumb:hover{
+    background: rgba(100,100,100,0.6);
+    transform: scale(1.05);
+}
+
+/* Firefox scrollbar styling (modern) */
+@supports (scrollbar-width: thin) {
+    #right{
+        scrollbar-width: thin;
+        scrollbar-color: rgba(100,100,100,0.35) transparent;
+    }
+}
+
+/* Optional: hide scrollbar but keep scrolling (uncomment to use)
+#right::-webkit-scrollbar{ display: none; }
+*/

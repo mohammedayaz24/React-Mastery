@@ -22,14 +22,14 @@ const App = () => {
                value={title}
                onChange={(e) => {
                  setTitle(e.target.value);
-               }} />
+               }}/>
 
         <input type="password"
                placeholder="Enter your Password"
                value={key}
                onChange={(e) => {
                 setKey(e.target.value);
-               }} />
+               }}/>
         <button>Submit</button>
       </form>
     </div>

@@ -30,7 +30,7 @@ const App = () => {
   }
 
   return (
-    <div className='min-h-screen lg:flex bg-gray-50'>
+    <div className='min-h-screen lg:flex bg-black'>
 
       <form onSubmit={(e) => {
         submitHandler(e)

@@ -4,7 +4,6 @@ const App = () => {
 
   const [title, setTitle] = useState('')
   const [details, setDetails] = useState('')
-
   const [task, setTask] = useState([])
 
   const submitHandler = (e) => {
@@ -13,7 +12,6 @@ const App = () => {
     const copyTask = [...task];
 
     copyTask.push({ title, details })
-
     setTask(copyTask)
 
     setTitle('')
@@ -89,3 +87,4 @@ const App = () => {
 }
 
 export default App
+//notes app

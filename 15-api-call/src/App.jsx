@@ -41,6 +41,9 @@ const App = () => {
           return <h3>hello, {elem.author}</h3>
         })}
       </div>
+
+      <input type="text" minLength={5} maxLength={6} placeholder="Enter roll num" />
+      <button type="submit">Submit</button>
     </div>
   )
 }

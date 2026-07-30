@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="bg-black h-screen text-white p-4">
       <button onClick={getData}
-       className="bg-green-900 active:scale-95 text-white px-5 py-2 rounded mb-3">Get Data</button>
+       className="bg-green-1000 active:scale-95 text-white px-5 py-2 rounded mb-3">Get Data</button>
 
 
     </div>

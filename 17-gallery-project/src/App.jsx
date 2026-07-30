@@ -10,6 +10,8 @@ const App = () => {
       <button onClick={getData}
        className="bg-green-1000 active:scale-95 text-white px-5 py-2 rounded mb-3">Get Data</button>
       <h3>hiiiiiiii</h3>
+            <h3>hiiiiiiii</h3>
+
 
     </div>
   )

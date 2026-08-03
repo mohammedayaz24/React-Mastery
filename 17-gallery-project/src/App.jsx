@@ -19,7 +19,7 @@ const App = () => {
   },[index])
 
 
-  let printUserData = <h3 className="text-2xl font-black">Loading...</h3>
+  let printUserData = <h3 className="text-2xl font-black">Loading....</h3>
 
   if(userData.length > 0){
     printUserData = userData.map(function(elem,idx){

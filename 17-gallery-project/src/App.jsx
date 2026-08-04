@@ -3,14 +3,14 @@ import { useState } from 'react'
 import { useEffect } from "react"
 import Cards from "./components/Cards"
 
+
 const App = () => {
 
   const [userData, setUserData] = useState([])
   const [index, setIndex] = useState(1)
 
-
   const getData = async ()=> {
-    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=30`)
+    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=10`)
     setUserData(response.data)
   }
 
@@ -20,7 +20,6 @@ const App = () => {
 
 
   let printUserData = <h3 className="text-2xl font-black">Loading....</h3>
-
   if(userData.length > 0){
     printUserData = userData.map(function(elem,idx){
 
@@ -38,7 +37,10 @@ const App = () => {
       </div>
 
       <div className="flex justify-center items-center p-4">
-        <button onClick={() => {
+        <button
+        style={{opacity: index > 1 ? 1 : 0.5}}
+        
+        onClick={() => {
           if(index > 1) {
             setIndex(index - 1)
           }

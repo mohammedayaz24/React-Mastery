@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+h1{
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+  text-decoration: underline;
+  text-transform: Capitalize;
+}
+
+#overlay {
+                mask-image: radial-gradient(
+                    circle 120px at 50% 50%,
+                    transparent 0%,
+                    black 150px
+                );
+                -webkit-mask-image: radial-gradient(
+                    circle 120px at 50% 50%,
+                    transparent 0%,
+                    black 150px
+                );
+            }

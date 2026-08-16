@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.light,
+.dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.light {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.dark {
+  background-color: darkslategray;
+  color: white;
+}
+
+.nav1,
+.nav2 {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav2 {
+  color: white;
+}

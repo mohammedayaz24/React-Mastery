@@ -61,7 +61,7 @@ const App = () => {
         <button
           className='bg-blue-500 hover:bg-blue-600 active:scale-95 font-medium w-full outline-none text-white px-5 py-3 rounded-lg transition-all cursor-pointer'
         >
-          Add Note
+          Add Notes
         </button>
 
       </form>
